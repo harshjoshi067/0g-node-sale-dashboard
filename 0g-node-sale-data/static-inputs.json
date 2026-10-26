@@ -1,0 +1,316 @@
+{
+  "provenance": "Literal VALUES recovered from saved SQL; no queries executed successfully.",
+  "snapshots": {
+    "source": "https://dune.com/queries/4282954",
+    "rows": [
+      {
+        "datetime": "2024-11-13 00:45",
+        "USD_amount": "847309.09",
+        "node_buyer": 830,
+        "node_amount": 4919
+      },
+      {
+        "datetime": "2024-11-14 03:30",
+        "USD_amount": "1382721.34",
+        "node_buyer": 1271,
+        "node_amount": 7597
+      },
+      {
+        "datetime": "2024-11-14 13:13",
+        "USD_amount": "1484242.46",
+        "node_buyer": 1335,
+        "node_amount": 8065
+      },
+      {
+        "datetime": "2024-11-15 01:00",
+        "USD_amount": "1515903.26",
+        "node_buyer": 1369,
+        "node_amount": 8210
+      },
+      {
+        "datetime": "2024-11-19 15:38",
+        "USD_amount": "2052590.25",
+        "node_buyer": 1747,
+        "node_amount": 9927
+      }
+    ]
+  },
+  "fixedSaleInputs": {
+    "source": "https://dune.com/queries/4272013",
+    "rows": [
+      {
+        "source": "Coinlist (labelled Mocalist in dashboard)",
+        "USD_amount": "2052590.25",
+        "node_buyer": 1747,
+        "node_amount": 9927
+      },
+      {
+        "source": "Pre-sale investors",
+        "USD_amount": "2600000",
+        "node_buyer": 2657,
+        "node_amount": 8554
+      }
+    ]
+  },
+  "tierConfiguration": {
+    "source": "https://dune.com/queries/4272050",
+    "rows": [
+      {
+        "tier": 1,
+        "USD_price": 123,
+        "tot_cnt": 3000,
+        "wl_cnt": 2100,
+        "public_cnt": 900,
+        "wallet_cap": 5
+      },
+      {
+        "tier": 2,
+        "USD_price": 143,
+        "tot_cnt": 4000,
+        "wl_cnt": 2800,
+        "public_cnt": 1200,
+        "wallet_cap": 5
+      },
+      {
+        "tier": 3,
+        "USD_price": 165,
+        "tot_cnt": 5000,
+        "wl_cnt": 3500,
+        "public_cnt": 1500,
+        "wallet_cap": 10
+      },
+      {
+        "tier": 4,
+        "USD_price": 192,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": 10
+      },
+      {
+        "tier": 5,
+        "USD_price": 221,
+        "tot_cnt": 7000,
+        "wl_cnt": 4900,
+        "public_cnt": 2100,
+        "wallet_cap": 20
+      },
+      {
+        "tier": 6,
+        "USD_price": 253,
+        "tot_cnt": 8000,
+        "wl_cnt": 5600,
+        "public_cnt": 2400,
+        "wallet_cap": 20
+      },
+      {
+        "tier": 7,
+        "USD_price": 290,
+        "tot_cnt": 8000,
+        "wl_cnt": 5600,
+        "public_cnt": 2400,
+        "wallet_cap": 40
+      },
+      {
+        "tier": 8,
+        "USD_price": 332,
+        "tot_cnt": 8000,
+        "wl_cnt": 5600,
+        "public_cnt": 2400,
+        "wallet_cap": 40
+      },
+      {
+        "tier": 9,
+        "USD_price": 378,
+        "tot_cnt": 8000,
+        "wl_cnt": 5600,
+        "public_cnt": 2400,
+        "wallet_cap": 50
+      },
+      {
+        "tier": 10,
+        "USD_price": 430,
+        "tot_cnt": 7000,
+        "wl_cnt": 4900,
+        "public_cnt": 2100,
+        "wallet_cap": 50
+      },
+      {
+        "tier": 11,
+        "USD_price": 487,
+        "tot_cnt": 7000,
+        "wl_cnt": 4900,
+        "public_cnt": 2100,
+        "wallet_cap": 100
+      },
+      {
+        "tier": 12,
+        "USD_price": 551,
+        "tot_cnt": 7000,
+        "wl_cnt": 4900,
+        "public_cnt": 2100,
+        "wallet_cap": 100
+      },
+      {
+        "tier": 13,
+        "USD_price": 624,
+        "tot_cnt": 7000,
+        "wl_cnt": 4900,
+        "public_cnt": 2100,
+        "wallet_cap": 500
+      },
+      {
+        "tier": 14,
+        "USD_price": 708,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": 500
+      },
+      {
+        "tier": 15,
+        "USD_price": 794,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": 500
+      },
+      {
+        "tier": 16,
+        "USD_price": 890,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": null
+      },
+      {
+        "tier": 17,
+        "USD_price": 998,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": null
+      },
+      {
+        "tier": 18,
+        "USD_price": 1118,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": null
+      },
+      {
+        "tier": 19,
+        "USD_price": 1253,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": null
+      },
+      {
+        "tier": 20,
+        "USD_price": 1317,
+        "tot_cnt": 6000,
+        "wl_cnt": 4200,
+        "public_cnt": 1800,
+        "wallet_cap": null
+      },
+      {
+        "tier": 21,
+        "USD_price": 1384,
+        "tot_cnt": 5000,
+        "wl_cnt": 3500,
+        "public_cnt": 1500,
+        "wallet_cap": null
+      },
+      {
+        "tier": 22,
+        "USD_price": 1455,
+        "tot_cnt": 5000,
+        "wl_cnt": 3500,
+        "public_cnt": 1500,
+        "wallet_cap": null
+      },
+      {
+        "tier": 23,
+        "USD_price": 1529,
+        "tot_cnt": 5000,
+        "wl_cnt": 3500,
+        "public_cnt": 1500,
+        "wallet_cap": null
+      },
+      {
+        "tier": 24,
+        "USD_price": 1607,
+        "tot_cnt": 4000,
+        "wl_cnt": 2800,
+        "public_cnt": 1200,
+        "wallet_cap": null
+      },
+      {
+        "tier": 25,
+        "USD_price": 1688,
+        "tot_cnt": 4000,
+        "wl_cnt": 2800,
+        "public_cnt": 1200,
+        "wallet_cap": null
+      },
+      {
+        "tier": 26,
+        "USD_price": 1774,
+        "tot_cnt": 4000,
+        "wl_cnt": 2800,
+        "public_cnt": 1200,
+        "wallet_cap": null
+      },
+      {
+        "tier": 27,
+        "USD_price": 1865,
+        "tot_cnt": 4000,
+        "wl_cnt": 2800,
+        "public_cnt": 1200,
+        "wallet_cap": null
+      },
+      {
+        "tier": 28,
+        "USD_price": 1959,
+        "tot_cnt": 3500,
+        "wl_cnt": 2450,
+        "public_cnt": 1050,
+        "wallet_cap": null
+      },
+      {
+        "tier": 29,
+        "USD_price": 2057,
+        "tot_cnt": 3500,
+        "wl_cnt": 2450,
+        "public_cnt": 1050,
+        "wallet_cap": null
+      },
+      {
+        "tier": 30,
+        "USD_price": 2160,
+        "tot_cnt": 3500,
+        "wl_cnt": 2450,
+        "public_cnt": 1050,
+        "wallet_cap": null
+      },
+      {
+        "tier": 31,
+        "USD_price": 2268,
+        "tot_cnt": 3500,
+        "wl_cnt": 2450,
+        "public_cnt": 1050,
+        "wallet_cap": null
+      },
+      {
+        "tier": 32,
+        "USD_price": 2384,
+        "tot_cnt": 3500,
+        "wl_cnt": 2450,
+        "public_cnt": 1050,
+        "wallet_cap": null
+      }
+    ]
+  }
+}

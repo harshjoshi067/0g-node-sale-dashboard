@@ -1,0 +1,2712 @@
+{
+  "source": "https://dune.com/node_data/0g-foundation-node-sale",
+  "retrievedAt": "2026-10-26T20:17:01.371Z",
+  "status": "partial_one_query_failed",
+  "coverage": {
+    "visualizations": 28,
+    "visualizationsWithExport": 27,
+    "distinctDashboardQueries": 11,
+    "exportedQueries": 10,
+    "totalExportedRows": 16075
+  },
+  "creditsUsedAtCompletion": 315.798,
+  "creditsQuota": 4000,
+  "parameters": [],
+  "resultSets": [
+    {
+      "queryId": 4271957,
+      "queryURL": "https://dune.com/queries/4271957",
+      "executionId": "01M5WXDTKRB4FQV2PNMJ3T6KDS",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 6105,
+      "exportedRows": 6105,
+      "columns": [
+        {
+          "name": "blockchain",
+          "type": "varchar(8)"
+        },
+        {
+          "name": "block_time",
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "transaction_hash",
+          "type": "varbinary"
+        },
+        {
+          "name": "buyer",
+          "type": "varbinary"
+        },
+        {
+          "name": "round",
+          "type": "varchar(6)"
+        },
+        {
+          "name": "tier",
+          "type": "integer"
+        },
+        {
+          "name": "tierID",
+          "type": "varchar"
+        },
+        {
+          "name": "currency",
+          "type": "varchar(4)"
+        },
+        {
+          "name": "nodes_purchased",
+          "type": "uint256"
+        },
+        {
+          "name": "total_price",
+          "type": "double"
+        },
+        {
+          "name": "unit_price",
+          "type": "double"
+        },
+        {
+          "name": "USD_amount",
+          "type": "double"
+        },
+        {
+          "name": "USD_per_unit",
+          "type": "double"
+        },
+        {
+          "name": "use_code",
+          "type": "varchar(3)"
+        },
+        {
+          "name": "with_code",
+          "type": "varchar"
+        }
+      ],
+      "executionCostCredits": "51.25",
+      "csv": "csv/4271957.csv",
+      "json": "results/4271957.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4272013,
+      "queryURL": "https://dune.com/queries/4272013",
+      "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 1,
+      "exportedRows": 1,
+      "columns": [
+        {
+          "name": "tx_count",
+          "type": "bigint"
+        },
+        {
+          "name": "total_node_count",
+          "type": "uint256"
+        },
+        {
+          "name": "node_reserved",
+          "type": "uint256"
+        },
+        {
+          "name": "USDC_amount",
+          "type": "double"
+        },
+        {
+          "name": "WETH_amount",
+          "type": "double"
+        },
+        {
+          "name": "total_usd_amount",
+          "type": "double"
+        },
+        {
+          "name": "wl_node_count",
+          "type": "uint256"
+        },
+        {
+          "name": "public_node_count",
+          "type": "uint256"
+        },
+        {
+          "name": "total_wl_amount",
+          "type": "double"
+        },
+        {
+          "name": "total_public_amount",
+          "type": "double"
+        },
+        {
+          "name": "unique_buyer",
+          "type": "bigint"
+        },
+        {
+          "name": "coinlist_node_amount",
+          "type": "integer"
+        },
+        {
+          "name": "coinlist_sold",
+          "type": "decimal(9, 2)"
+        },
+        {
+          "name": "coinlist_node_buyer",
+          "type": "integer"
+        },
+        {
+          "name": "presale_node_amount",
+          "type": "integer"
+        },
+        {
+          "name": "presale_sold",
+          "type": "integer"
+        },
+        {
+          "name": "presale_node_buyer",
+          "type": "integer"
+        }
+      ],
+      "executionCostCredits": "34.817",
+      "csv": "csv/4272013.csv",
+      "json": "results/4272013.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4272028,
+      "queryURL": "https://dune.com/queries/4272028",
+      "executionId": "01M5WXJKVFYYS7SH2P360ZM9YF",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 573,
+      "exportedRows": 573,
+      "columns": [
+        {
+          "name": "promo_code",
+          "type": "varchar"
+        },
+        {
+          "name": "purchased_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "wl_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "public_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "USD_amount",
+          "type": "double"
+        },
+        {
+          "name": "avgUSD_amount",
+          "type": "double"
+        }
+      ],
+      "executionCostCredits": "32.699",
+      "csv": "csv/4272028.csv",
+      "json": "results/4272028.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4272031,
+      "queryURL": "https://dune.com/queries/4272031",
+      "executionId": "01M5WXJKER4C31F57MSVMN3Q04",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 17,
+      "exportedRows": 17,
+      "columns": [
+        {
+          "name": "tier",
+          "type": "integer"
+        },
+        {
+          "name": "tierID",
+          "type": "varchar"
+        },
+        {
+          "name": "purchased_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "with_promo",
+          "type": "uint256"
+        },
+        {
+          "name": "without_promo",
+          "type": "uint256"
+        },
+        {
+          "name": "USD_amount",
+          "type": "double"
+        },
+        {
+          "name": "Avg_USD_amount",
+          "type": "double"
+        }
+      ],
+      "executionCostCredits": "32.643",
+      "csv": "csv/4272031.csv",
+      "json": "results/4272031.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4272053,
+      "queryURL": "https://dune.com/queries/4272053",
+      "executionId": "01M5WXG84WNX4M8628G66BWN8Q",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 16,
+      "exportedRows": 16,
+      "columns": [
+        {
+          "name": "tier",
+          "type": "integer"
+        },
+        {
+          "name": "max_nodes",
+          "type": "integer"
+        },
+        {
+          "name": "sold",
+          "type": "uint256"
+        },
+        {
+          "name": "nodes_left",
+          "type": "uint256"
+        },
+        {
+          "name": "max_wl",
+          "type": "integer"
+        },
+        {
+          "name": "wl_sold",
+          "type": "uint256"
+        },
+        {
+          "name": "wl_sold_pct",
+          "type": "double"
+        },
+        {
+          "name": "max_public",
+          "type": "integer"
+        },
+        {
+          "name": "public_sold",
+          "type": "uint256"
+        },
+        {
+          "name": "public_sold_pct",
+          "type": "double"
+        },
+        {
+          "name": "sold_pct",
+          "type": "double"
+        },
+        {
+          "name": "wl_USD_amount",
+          "type": "double"
+        },
+        {
+          "name": "public_USD_amount",
+          "type": "double"
+        },
+        {
+          "name": "USD_amount",
+          "type": "double"
+        }
+      ],
+      "executionCostCredits": "33.32",
+      "csv": "csv/4272053.csv",
+      "json": "results/4272053.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4272070,
+      "queryURL": "https://dune.com/queries/4272070",
+      "executionId": "01M5WXG7YCNRYCPQ3WEWN8JYBH",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 4079,
+      "exportedRows": 4079,
+      "columns": [
+        {
+          "name": "buyer",
+          "type": "varbinary"
+        },
+        {
+          "name": "purchased_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "with_promo",
+          "type": "uint256"
+        },
+        {
+          "name": "without_promo",
+          "type": "uint256"
+        },
+        {
+          "name": "wl_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "public_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "USD_amount",
+          "type": "double"
+        },
+        {
+          "name": "avgUSD_amount",
+          "type": "double"
+        }
+      ],
+      "executionCostCredits": "33.299",
+      "csv": "csv/4272070.csv",
+      "json": "results/4272070.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4272079,
+      "queryURL": "https://dune.com/queries/4272079",
+      "executionId": "01M5WXK0FS5MZ7F6K0XP5YYXP6",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 665,
+      "exportedRows": 665,
+      "columns": [
+        {
+          "name": "sale_hour",
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "nodes_sold",
+          "type": "uint256"
+        },
+        {
+          "name": "amount_credited",
+          "type": "double"
+        },
+        {
+          "name": "cumulative_nodes_sold_by_hour",
+          "type": "uint256"
+        },
+        {
+          "name": "cumulative_amount_credited",
+          "type": "double"
+        }
+      ],
+      "executionCostCredits": "32.607",
+      "csv": "csv/4272079.csv",
+      "json": "results/4272079.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4272762,
+      "queryURL": "https://dune.com/queries/4272762",
+      "executionId": "01M5WXMNN01S4D63F6HAEDQK0F",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 4598,
+      "exportedRows": 4598,
+      "columns": [
+        {
+          "name": "block_time",
+          "type": "timestamp(3) with time zone"
+        },
+        {
+          "name": "buyer",
+          "type": "varbinary"
+        },
+        {
+          "name": "with_code",
+          "type": "varchar"
+        },
+        {
+          "name": "nodes_purchased",
+          "type": "uint256"
+        },
+        {
+          "name": "USD_per_unit",
+          "type": "double"
+        },
+        {
+          "name": "USD_amount",
+          "type": "double"
+        }
+      ],
+      "executionCostCredits": "32.72",
+      "csv": "csv/4272762.csv",
+      "json": "results/4272762.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4275719,
+      "queryURL": "https://dune.com/queries/4275719",
+      "executionId": "01M5WXMNF603AB1MDB1RWJ6SKE",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 16,
+      "exportedRows": 16,
+      "columns": [
+        {
+          "name": "tier",
+          "type": "integer"
+        },
+        {
+          "name": "tierID",
+          "type": "varchar"
+        },
+        {
+          "name": "purchased_amt",
+          "type": "uint256"
+        },
+        {
+          "name": "with_promo",
+          "type": "uint256"
+        },
+        {
+          "name": "without_promo",
+          "type": "uint256"
+        },
+        {
+          "name": "USD_amount",
+          "type": "double"
+        },
+        {
+          "name": "Avg_USD_amount",
+          "type": "double"
+        }
+      ],
+      "executionCostCredits": "32.431",
+      "csv": "csv/4275719.csv",
+      "json": "results/4275719.json",
+      "status": "complete"
+    },
+    {
+      "queryId": 4282954,
+      "queryURL": "https://dune.com/queries/4282954",
+      "executionId": "01M5WXJKN70T9B8G9H97V362NV",
+      "parameters": [],
+      "state": "COMPLETED",
+      "expectedRows": 5,
+      "exportedRows": 5,
+      "columns": [
+        {
+          "name": "datetime",
+          "type": "timestamp(0)"
+        },
+        {
+          "name": "USD_amount",
+          "type": "decimal(9, 2)"
+        },
+        {
+          "name": "node_buyer",
+          "type": "integer"
+        },
+        {
+          "name": "node_amount",
+          "type": "integer"
+        }
+      ],
+      "executionCostCredits": "0.014",
+      "csv": "csv/4282954.csv",
+      "json": "results/4282954.json",
+      "status": "complete"
+    }
+  ],
+  "failedQueries": [
+    {
+      "queryId": 4275699,
+      "url": "https://dune.com/queries/4275699",
+      "lastKnownExecutionId": "01KX3M9H9K84HBQQH6FCHGHCHS",
+      "error": "result of sequence function must not have more than 10000 entries",
+      "note": "Not rerun because its unchanged SQL generates an hourly sequence from 2024-11-11 to NOW() exceeding Dune's 10000-element limit."
+    }
+  ],
+  "widgets": [
+    {
+      "widgetId": 1637001,
+      "visualizationId": 7181109,
+      "position": {
+        "col": 0,
+        "row": 66,
+        "sizeX": 6,
+        "sizeY": 9
+      },
+      "name": "Node sale by wallet address",
+      "queryId": 4272070,
+      "result": {
+        "queryId": 4272070,
+        "queryURL": "https://dune.com/queries/4272070",
+        "executionId": "01M5WXG7YCNRYCPQ3WEWN8JYBH",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 4079,
+        "exportedRows": 4079,
+        "columns": [
+          {
+            "name": "buyer",
+            "type": "varbinary"
+          },
+          {
+            "name": "purchased_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "with_promo",
+            "type": "uint256"
+          },
+          {
+            "name": "without_promo",
+            "type": "uint256"
+          },
+          {
+            "name": "wl_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "public_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "avgUSD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "33.299",
+        "csv": "csv/4272070.csv",
+        "json": "results/4272070.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1894855,
+      "visualizationId": 7193187,
+      "position": {
+        "col": 1,
+        "row": 9,
+        "sizeX": 1,
+        "sizeY": 4
+      },
+      "name": "Nodes reserved to be distributed",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636980,
+      "visualizationId": 7181046,
+      "position": {
+        "col": 0,
+        "row": 97,
+        "sizeX": 3,
+        "sizeY": 8
+      },
+      "name": "Tier ID (WL)",
+      "queryId": 4272031,
+      "result": {
+        "queryId": 4272031,
+        "queryURL": "https://dune.com/queries/4272031",
+        "executionId": "01M5WXJKER4C31F57MSVMN3Q04",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 17,
+        "exportedRows": 17,
+        "columns": [
+          {
+            "name": "tier",
+            "type": "integer"
+          },
+          {
+            "name": "tierID",
+            "type": "varchar"
+          },
+          {
+            "name": "purchased_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "with_promo",
+            "type": "uint256"
+          },
+          {
+            "name": "without_promo",
+            "type": "uint256"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "Avg_USD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "32.643",
+        "csv": "csv/4272031.csv",
+        "json": "results/4272031.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636975,
+      "visualizationId": 7181022,
+      "position": {
+        "col": 2,
+        "row": 9,
+        "sizeX": 2,
+        "sizeY": 4
+      },
+      "name": "Total USD amount",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1637765,
+      "visualizationId": 7188340,
+      "position": {
+        "col": 3,
+        "row": 48,
+        "sizeX": 3,
+        "sizeY": 8
+      },
+      "name": "Node sales by tier (Public)",
+      "queryId": 4272053,
+      "result": {
+        "queryId": 4272053,
+        "queryURL": "https://dune.com/queries/4272053",
+        "executionId": "01M5WXG84WNX4M8628G66BWN8Q",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 16,
+        "exportedRows": 16,
+        "columns": [
+          {
+            "name": "tier",
+            "type": "integer"
+          },
+          {
+            "name": "max_nodes",
+            "type": "integer"
+          },
+          {
+            "name": "sold",
+            "type": "uint256"
+          },
+          {
+            "name": "nodes_left",
+            "type": "uint256"
+          },
+          {
+            "name": "max_wl",
+            "type": "integer"
+          },
+          {
+            "name": "wl_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "wl_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "max_public",
+            "type": "integer"
+          },
+          {
+            "name": "public_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "public_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "wl_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "public_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "33.32",
+        "csv": "csv/4272053.csv",
+        "json": "results/4272053.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636977,
+      "visualizationId": 7181029,
+      "position": {
+        "col": 4,
+        "row": 9,
+        "sizeX": 2,
+        "sizeY": 8
+      },
+      "name": "Unique node buyer",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1637606,
+      "visualizationId": 7186851,
+      "position": {
+        "col": 3,
+        "row": 40,
+        "sizeX": 3,
+        "sizeY": 8
+      },
+      "name": "Cumu node sale over time (tier)",
+      "queryId": 4275699,
+      "result": {
+        "status": "failed",
+        "queryId": 4275699
+      }
+    },
+    {
+      "widgetId": 1638928,
+      "visualizationId": 7197766,
+      "position": {
+        "col": 1,
+        "row": 25,
+        "sizeX": 3,
+        "sizeY": 5
+      },
+      "name": "Mocalist snapshot data",
+      "queryId": 4282954,
+      "result": {
+        "queryId": 4282954,
+        "queryURL": "https://dune.com/queries/4282954",
+        "executionId": "01M5WXJKN70T9B8G9H97V362NV",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 5,
+        "exportedRows": 5,
+        "columns": [
+          {
+            "name": "datetime",
+            "type": "timestamp(0)"
+          },
+          {
+            "name": "USD_amount",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "node_amount",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "0.014",
+        "csv": "csv/4282954.csv",
+        "json": "results/4282954.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636979,
+      "visualizationId": 7181043,
+      "position": {
+        "col": 0,
+        "row": 77,
+        "sizeX": 6,
+        "sizeY": 9
+      },
+      "name": "Query results",
+      "queryId": 4272028,
+      "result": {
+        "queryId": 4272028,
+        "queryURL": "https://dune.com/queries/4272028",
+        "executionId": "01M5WXJKVFYYS7SH2P360ZM9YF",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 573,
+        "exportedRows": 573,
+        "columns": [
+          {
+            "name": "promo_code",
+            "type": "varchar"
+          },
+          {
+            "name": "purchased_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "wl_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "public_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "avgUSD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "32.699",
+        "csv": "csv/4272028.csv",
+        "json": "results/4272028.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636996,
+      "visualizationId": 7181097,
+      "position": {
+        "col": 0,
+        "row": 40,
+        "sizeX": 3,
+        "sizeY": 8
+      },
+      "name": "Nodes sold and available",
+      "queryId": 4272053,
+      "result": {
+        "queryId": 4272053,
+        "queryURL": "https://dune.com/queries/4272053",
+        "executionId": "01M5WXG84WNX4M8628G66BWN8Q",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 16,
+        "exportedRows": 16,
+        "columns": [
+          {
+            "name": "tier",
+            "type": "integer"
+          },
+          {
+            "name": "max_nodes",
+            "type": "integer"
+          },
+          {
+            "name": "sold",
+            "type": "uint256"
+          },
+          {
+            "name": "nodes_left",
+            "type": "uint256"
+          },
+          {
+            "name": "max_wl",
+            "type": "integer"
+          },
+          {
+            "name": "wl_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "wl_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "max_public",
+            "type": "integer"
+          },
+          {
+            "name": "public_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "public_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "wl_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "public_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "33.32",
+        "csv": "csv/4272053.csv",
+        "json": "results/4272053.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1637012,
+      "visualizationId": 7181176,
+      "position": {
+        "col": 0,
+        "row": 30,
+        "sizeX": 6,
+        "sizeY": 8
+      },
+      "name": "Hourly node sales",
+      "queryId": 4272079,
+      "result": {
+        "queryId": 4272079,
+        "queryURL": "https://dune.com/queries/4272079",
+        "executionId": "01M5WXK0FS5MZ7F6K0XP5YYXP6",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 665,
+        "exportedRows": 665,
+        "columns": [
+          {
+            "name": "sale_hour",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "nodes_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "amount_credited",
+            "type": "double"
+          },
+          {
+            "name": "cumulative_nodes_sold_by_hour",
+            "type": "uint256"
+          },
+          {
+            "name": "cumulative_amount_credited",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "32.607",
+        "csv": "csv/4272079.csv",
+        "json": "results/4272079.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636974,
+      "visualizationId": 7181025,
+      "position": {
+        "col": 1,
+        "row": 13,
+        "sizeX": 1,
+        "sizeY": 4
+      },
+      "name": "Node sold (Public)",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1638243,
+      "visualizationId": 7181021,
+      "position": {
+        "col": 2,
+        "row": 13,
+        "sizeX": 1,
+        "sizeY": 4
+      },
+      "name": "WL USD amount",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636958,
+      "visualizationId": 7180917,
+      "position": {
+        "col": 0,
+        "row": 107,
+        "sizeX": 6,
+        "sizeY": 8
+      },
+      "name": "Query results",
+      "queryId": 4271957,
+      "result": {
+        "queryId": 4271957,
+        "queryURL": "https://dune.com/queries/4271957",
+        "executionId": "01M5WXDTKRB4FQV2PNMJ3T6KDS",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 6105,
+        "exportedRows": 6105,
+        "columns": [
+          {
+            "name": "blockchain",
+            "type": "varchar(8)"
+          },
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "transaction_hash",
+            "type": "varbinary"
+          },
+          {
+            "name": "buyer",
+            "type": "varbinary"
+          },
+          {
+            "name": "round",
+            "type": "varchar(6)"
+          },
+          {
+            "name": "tier",
+            "type": "integer"
+          },
+          {
+            "name": "tierID",
+            "type": "varchar"
+          },
+          {
+            "name": "currency",
+            "type": "varchar(4)"
+          },
+          {
+            "name": "nodes_purchased",
+            "type": "uint256"
+          },
+          {
+            "name": "total_price",
+            "type": "double"
+          },
+          {
+            "name": "unit_price",
+            "type": "double"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "USD_per_unit",
+            "type": "double"
+          },
+          {
+            "name": "use_code",
+            "type": "varchar(3)"
+          },
+          {
+            "name": "with_code",
+            "type": "varchar"
+          }
+        ],
+        "executionCostCredits": "51.25",
+        "csv": "csv/4271957.csv",
+        "json": "results/4271957.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1638443,
+      "visualizationId": 7193339,
+      "position": {
+        "col": 2,
+        "row": 17,
+        "sizeX": 2,
+        "sizeY": 4
+      },
+      "name": "Mocalist USD amount",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1638441,
+      "visualizationId": 7193348,
+      "position": {
+        "col": 4,
+        "row": 17,
+        "sizeX": 2,
+        "sizeY": 4
+      },
+      "name": "Mocalist unique buyers",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1638444,
+      "visualizationId": 7193318,
+      "position": {
+        "col": 0,
+        "row": 17,
+        "sizeX": 2,
+        "sizeY": 4
+      },
+      "name": "Mocalist node sold",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1637766,
+      "visualizationId": 7188262,
+      "position": {
+        "col": 0,
+        "row": 56,
+        "sizeX": 6,
+        "sizeY": 8
+      },
+      "name": "Node sale by tier",
+      "queryId": 4272053,
+      "result": {
+        "queryId": 4272053,
+        "queryURL": "https://dune.com/queries/4272053",
+        "executionId": "01M5WXG84WNX4M8628G66BWN8Q",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 16,
+        "exportedRows": 16,
+        "columns": [
+          {
+            "name": "tier",
+            "type": "integer"
+          },
+          {
+            "name": "max_nodes",
+            "type": "integer"
+          },
+          {
+            "name": "sold",
+            "type": "uint256"
+          },
+          {
+            "name": "nodes_left",
+            "type": "uint256"
+          },
+          {
+            "name": "max_wl",
+            "type": "integer"
+          },
+          {
+            "name": "wl_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "wl_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "max_public",
+            "type": "integer"
+          },
+          {
+            "name": "public_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "public_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "wl_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "public_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "33.32",
+        "csv": "csv/4272053.csv",
+        "json": "results/4272053.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636973,
+      "visualizationId": 7181024,
+      "position": {
+        "col": 0,
+        "row": 13,
+        "sizeX": 1,
+        "sizeY": 4
+      },
+      "name": "Node sold (WL)",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1636972,
+      "visualizationId": 7181018,
+      "position": {
+        "col": 0,
+        "row": 9,
+        "sizeX": 1,
+        "sizeY": 4
+      },
+      "name": "Total node sold",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1688686,
+      "visualizationId": 7581830,
+      "position": {
+        "col": 4,
+        "row": 21,
+        "sizeX": 2,
+        "sizeY": 4
+      },
+      "name": "Other launchpad unique buyers",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1688687,
+      "visualizationId": 7581825,
+      "position": {
+        "col": 2,
+        "row": 21,
+        "sizeX": 2,
+        "sizeY": 4
+      },
+      "name": "Pre-sale USD amount",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1637604,
+      "visualizationId": 7186865,
+      "position": {
+        "col": 3,
+        "row": 97,
+        "sizeX": 3,
+        "sizeY": 8
+      },
+      "name": "Query results",
+      "queryId": 4275719,
+      "result": {
+        "queryId": 4275719,
+        "queryURL": "https://dune.com/queries/4275719",
+        "executionId": "01M5WXMNF603AB1MDB1RWJ6SKE",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 16,
+        "exportedRows": 16,
+        "columns": [
+          {
+            "name": "tier",
+            "type": "integer"
+          },
+          {
+            "name": "tierID",
+            "type": "varchar"
+          },
+          {
+            "name": "purchased_amt",
+            "type": "uint256"
+          },
+          {
+            "name": "with_promo",
+            "type": "uint256"
+          },
+          {
+            "name": "without_promo",
+            "type": "uint256"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "Avg_USD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "32.431",
+        "csv": "csv/4275719.csv",
+        "json": "results/4275719.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1688688,
+      "visualizationId": 7581823,
+      "position": {
+        "col": 0,
+        "row": 21,
+        "sizeX": 2,
+        "sizeY": 4
+      },
+      "name": "Pre-sale node amount",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1638929,
+      "visualizationId": 7197768,
+      "position": {
+        "col": 4,
+        "row": 25,
+        "sizeX": 2,
+        "sizeY": 5
+      },
+      "name": "Mocalist amount snapshot",
+      "queryId": 4282954,
+      "result": {
+        "queryId": 4282954,
+        "queryURL": "https://dune.com/queries/4282954",
+        "executionId": "01M5WXJKN70T9B8G9H97V362NV",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 5,
+        "exportedRows": 5,
+        "columns": [
+          {
+            "name": "datetime",
+            "type": "timestamp(0)"
+          },
+          {
+            "name": "USD_amount",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "node_amount",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "0.014",
+        "csv": "csv/4282954.csv",
+        "json": "results/4282954.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1637126,
+      "visualizationId": 7182136,
+      "position": {
+        "col": 0,
+        "row": 86,
+        "sizeX": 6,
+        "sizeY": 9
+      },
+      "name": "Query results",
+      "queryId": 4272762,
+      "result": {
+        "queryId": 4272762,
+        "queryURL": "https://dune.com/queries/4272762",
+        "executionId": "01M5WXMNN01S4D63F6HAEDQK0F",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 4598,
+        "exportedRows": 4598,
+        "columns": [
+          {
+            "name": "block_time",
+            "type": "timestamp(3) with time zone"
+          },
+          {
+            "name": "buyer",
+            "type": "varbinary"
+          },
+          {
+            "name": "with_code",
+            "type": "varchar"
+          },
+          {
+            "name": "nodes_purchased",
+            "type": "uint256"
+          },
+          {
+            "name": "USD_per_unit",
+            "type": "double"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "32.72",
+        "csv": "csv/4272762.csv",
+        "json": "results/4272762.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1637767,
+      "visualizationId": 7188194,
+      "position": {
+        "col": 0,
+        "row": 48,
+        "sizeX": 3,
+        "sizeY": 8
+      },
+      "name": "Node sale by tiers (WL)",
+      "queryId": 4272053,
+      "result": {
+        "queryId": 4272053,
+        "queryURL": "https://dune.com/queries/4272053",
+        "executionId": "01M5WXG84WNX4M8628G66BWN8Q",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 16,
+        "exportedRows": 16,
+        "columns": [
+          {
+            "name": "tier",
+            "type": "integer"
+          },
+          {
+            "name": "max_nodes",
+            "type": "integer"
+          },
+          {
+            "name": "sold",
+            "type": "uint256"
+          },
+          {
+            "name": "nodes_left",
+            "type": "uint256"
+          },
+          {
+            "name": "max_wl",
+            "type": "integer"
+          },
+          {
+            "name": "wl_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "wl_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "max_public",
+            "type": "integer"
+          },
+          {
+            "name": "public_sold",
+            "type": "uint256"
+          },
+          {
+            "name": "public_sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "sold_pct",
+            "type": "double"
+          },
+          {
+            "name": "wl_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "public_USD_amount",
+            "type": "double"
+          },
+          {
+            "name": "USD_amount",
+            "type": "double"
+          }
+        ],
+        "executionCostCredits": "33.32",
+        "csv": "csv/4272053.csv",
+        "json": "results/4272053.json",
+        "status": "complete"
+      }
+    },
+    {
+      "widgetId": 1638244,
+      "visualizationId": 7181354,
+      "position": {
+        "col": 3,
+        "row": 13,
+        "sizeX": 1,
+        "sizeY": 4
+      },
+      "name": "Public USD amount",
+      "queryId": 4272013,
+      "result": {
+        "queryId": 4272013,
+        "queryURL": "https://dune.com/queries/4272013",
+        "executionId": "01M5WXG7QKGXJ2DW3CXKGD241P",
+        "parameters": [],
+        "state": "COMPLETED",
+        "expectedRows": 1,
+        "exportedRows": 1,
+        "columns": [
+          {
+            "name": "tx_count",
+            "type": "bigint"
+          },
+          {
+            "name": "total_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "node_reserved",
+            "type": "uint256"
+          },
+          {
+            "name": "USDC_amount",
+            "type": "double"
+          },
+          {
+            "name": "WETH_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_usd_amount",
+            "type": "double"
+          },
+          {
+            "name": "wl_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "public_node_count",
+            "type": "uint256"
+          },
+          {
+            "name": "total_wl_amount",
+            "type": "double"
+          },
+          {
+            "name": "total_public_amount",
+            "type": "double"
+          },
+          {
+            "name": "unique_buyer",
+            "type": "bigint"
+          },
+          {
+            "name": "coinlist_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "coinlist_sold",
+            "type": "decimal(9, 2)"
+          },
+          {
+            "name": "coinlist_node_buyer",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_amount",
+            "type": "integer"
+          },
+          {
+            "name": "presale_sold",
+            "type": "integer"
+          },
+          {
+            "name": "presale_node_buyer",
+            "type": "integer"
+          }
+        ],
+        "executionCostCredits": "34.817",
+        "csv": "csv/4272013.csv",
+        "json": "results/4272013.json",
+        "status": "complete"
+      }
+    }
+  ],
+  "notes": [
+    "Each query was executed separately on the small engine and all rows fetched with one page per query; exact reported row counts reconciled.",
+    "Row counts across result sets overlap and must not be summed as unique transactions.",
+    "Large integer values returned as strings are preserved. CSV is a text data export; JSON retains null values and types.",
+    "Query data include historical records and fixed Coinlist/pre-sale inputs; retrieval time is not the transaction time.",
+    "Underlying raw-data SQL uses fixed 3130 USD per wETH conversion.",
+    "Summary unique_buyer sums raw distinct buyers, Coinlist buyer input and presale buyer input, without deduplicating between channels.",
+    "No dashboard/query definitions were modified. Current dashboard query SQL and direct dependency SQL are included."
+  ]
+}

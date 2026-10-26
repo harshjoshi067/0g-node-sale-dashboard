@@ -1,0 +1,1078 @@
+[
+  {
+    "id": 7181109,
+    "queryId": 4272070,
+    "type": "table",
+    "chartType": "table",
+    "name": "Node sale by wallet address",
+    "options": {
+      "columns": [
+        {
+          "name": "USD_amount",
+          "title": "USD amount",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "avgUSD_amount",
+          "title": "Avg USD amount",
+          "numberFormat": "$0.00"
+        },
+        {
+          "name": "buyer",
+          "title": "Buyer"
+        },
+        {
+          "name": "purchased_amt",
+          "title": "Purchased amount"
+        },
+        {
+          "name": "with_promo",
+          "title": "Node sold (w promo)"
+        },
+        {
+          "name": "without_promo",
+          "title": "Node sold (w/o promo)"
+        },
+        {
+          "name": "wl_amt",
+          "title": "WL amount"
+        },
+        {
+          "name": "public_amt",
+          "title": "Public amount"
+        }
+      ]
+    },
+    "createdAt": "2024-11-11T12:23:10.391Z",
+    "updatedAt": "2024-11-12T12:22:48.655Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272070/7181109",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272070%2F7181109&cache=0"
+  },
+  {
+    "id": 7193187,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Nodes reserved to be distributed",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "node_reserved"
+    },
+    "createdAt": "2024-11-13T10:22:16.772Z",
+    "updatedAt": "2025-08-11T08:49:06.369Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7193187",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7193187&cache=0"
+  },
+  {
+    "id": 7181046,
+    "queryId": 4272031,
+    "type": "table",
+    "chartType": "table",
+    "name": "Tier ID (WL)",
+    "options": {
+      "columns": [
+        {
+          "name": "tier",
+          "title": "Tier",
+          "coloredNegativeValues": false
+        },
+        {
+          "name": "tierID",
+          "title": "Tier ID"
+        },
+        {
+          "name": "purchased_amt",
+          "title": "Total sold"
+        },
+        {
+          "name": "with_promo",
+          "title": "Node sold (w promo)"
+        },
+        {
+          "name": "without_promo",
+          "title": "Node sold (w/o promo)"
+        },
+        {
+          "name": "USD_amount",
+          "title": "USD amount",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "Avg_USD_amount",
+          "title": "Avg USD amount",
+          "numberFormat": "$0,0.00"
+        }
+      ]
+    },
+    "createdAt": "2024-11-11T12:11:02.840Z",
+    "updatedAt": "2024-11-14T14:59:00.736Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272031/7181046",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272031%2F7181046&cache=0"
+  },
+  {
+    "id": 7181022,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Total USD amount",
+    "options": {
+      "rowNumber": 1,
+      "stringPrefix": "$",
+      "counterColName": "total_usd_amount"
+    },
+    "createdAt": "2024-11-11T12:06:29.286Z",
+    "updatedAt": "2024-11-15T03:37:09.592Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7181022",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7181022&cache=0"
+  },
+  {
+    "id": 7188340,
+    "queryId": 4272053,
+    "type": "table",
+    "chartType": "table",
+    "name": "Node sales by tier (Public)",
+    "options": {
+      "columns": [
+        {
+          "name": "tier",
+          "title": "Tier",
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "max_nodes",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "sold",
+          "isHidden": true
+        },
+        {
+          "name": "nodes_left",
+          "isHidden": true
+        },
+        {
+          "name": "max_wl",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "wl_sold",
+          "isHidden": true
+        },
+        {
+          "name": "wl_sold_pct",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "max_public",
+          "title": "Max Public",
+          "isHidden": false,
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "public_sold",
+          "type": "normal",
+          "title": "Public sold",
+          "coloredNegativeValues": false,
+          "coloredPositiveValues": false
+        },
+        {
+          "name": "public_sold_pct",
+          "type": "progressbar",
+          "title": "Public sold %",
+          "alignContent": "left",
+          "numberFormat": "0.0%",
+          "coloredNegativeValues": false,
+          "coloredPositiveValues": false
+        },
+        {
+          "name": "sold_pct",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "wl_USD_amount",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "public_USD_amount",
+          "title": "USD amount (Public)",
+          "alignContent": "left",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "USD_amount",
+          "title": "Total USD amount",
+          "alignContent": "left",
+          "numberFormat": "$0,0.00"
+        }
+      ]
+    },
+    "createdAt": "2024-11-12T16:07:57.194Z",
+    "updatedAt": "2024-11-12T16:18:49.802Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272053/7188340",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272053%2F7188340&cache=0"
+  },
+  {
+    "id": 7181029,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Unique node buyer",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "unique_buyer"
+    },
+    "createdAt": "2024-11-11T12:07:16.392Z",
+    "updatedAt": "2024-11-15T03:37:15.284Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7181029",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7181029&cache=0"
+  },
+  {
+    "id": 7186851,
+    "queryId": 4275699,
+    "type": "chart",
+    "chartType": "area",
+    "name": "Cumu node sale over time (tier)",
+    "options": {
+      "sortX": true,
+      "xAxis": {
+        "type": "-"
+      },
+      "yAxis": [
+        {
+          "type": "linear",
+          "title": {
+            "text": "Cumulative nodes"
+          }
+        }
+      ],
+      "legend": {
+        "enabled": true
+      },
+      "series": {
+        "stacking": "stack",
+        "showTotal": true
+      },
+      "reverseX": false,
+      "numberFormat": "0,0",
+      "columnMapping": {
+        "tier": "series",
+        "sale_hour": "x",
+        "cumulative_nodes_sold_by_tier": "y"
+      },
+      "seriesOptions": {},
+      "valuesOptions": {},
+      "globalSeriesType": "area"
+    },
+    "createdAt": "2024-11-12T11:45:09.596Z",
+    "updatedAt": "2024-11-12T16:17:18.724Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4275699/7186851",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4275699%2F7186851&cache=0"
+  },
+  {
+    "id": 7197766,
+    "queryId": 4282954,
+    "type": "table",
+    "chartType": "table",
+    "name": "Mocalist snapshot data",
+    "options": {
+      "columns": [
+        {
+          "name": "USD_amount",
+          "title": "Total USD amount",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "node_buyer",
+          "title": "Unique node buyers"
+        },
+        {
+          "name": "node_amount",
+          "title": "Node purchased"
+        }
+      ]
+    },
+    "createdAt": "2024-11-14T04:35:39.229Z",
+    "updatedAt": "2024-11-14T14:48:25.808Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4282954/7197766",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4282954%2F7197766&cache=0"
+  },
+  {
+    "id": 7181043,
+    "queryId": 4272028,
+    "type": "table",
+    "chartType": "table",
+    "name": "Query results",
+    "options": {
+      "columns": [
+        {
+          "name": "avgUSD_amount",
+          "title": "Avg USD amount",
+          "numberFormat": "$0.00"
+        },
+        {
+          "name": "USD_amount",
+          "title": "USD amount",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "promo_code",
+          "title": "Promocode"
+        },
+        {
+          "name": "purchased_amt",
+          "title": "Nodes purchased"
+        },
+        {
+          "name": "wl_amt",
+          "title": "WL amount"
+        },
+        {
+          "name": "public_amt",
+          "title": "Public amount"
+        }
+      ]
+    },
+    "createdAt": "2024-11-11T12:10:16.706Z",
+    "updatedAt": "2024-11-12T16:20:15.960Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272028/7181043",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272028%2F7181043&cache=0"
+  },
+  {
+    "id": 7181097,
+    "queryId": 4272053,
+    "type": "chart",
+    "chartType": "column",
+    "name": "Nodes sold and available",
+    "options": {
+      "sortX": true,
+      "xAxis": {
+        "type": "-",
+        "title": {
+          "text": "Tier"
+        }
+      },
+      "yAxis": [
+        {
+          "type": "linear",
+          "title": {
+            "text": "Nodes"
+          }
+        },
+        {
+          "type": "linear"
+        }
+      ],
+      "legend": {
+        "enabled": true
+      },
+      "series": {
+        "stacking": "stack",
+        "showTotal": true
+      },
+      "reverseX": false,
+      "numberFormat": "0,0",
+      "columnMapping": {
+        "sold": "y",
+        "tier": "x",
+        "nodes_left": "y"
+      },
+      "seriesOptions": {
+        "sold": {
+          "name": "Nodes sold",
+          "type": "column",
+          "color": "#3215ec",
+          "yAxis": 0,
+          "zIndex": 0
+        },
+        "nodes_left": {
+          "name": "Nodes available",
+          "type": "column",
+          "color": "#887de5",
+          "yAxis": 0,
+          "zIndex": 1
+        }
+      },
+      "valuesOptions": {},
+      "globalSeriesType": "column",
+      "numberFormatRightYAxisSeries": "0,0"
+    },
+    "createdAt": "2024-11-11T12:20:27.821Z",
+    "updatedAt": "2024-11-12T16:16:44.211Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272053/7181097",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272053%2F7181097&cache=0"
+  },
+  {
+    "id": 7181176,
+    "queryId": 4272079,
+    "type": "chart",
+    "chartType": "line",
+    "name": "Hourly node sales",
+    "options": {
+      "sortX": true,
+      "xAxis": {
+        "type": "-"
+      },
+      "yAxis": [
+        {
+          "type": "logarithmic",
+          "title": {
+            "text": "Node sold"
+          }
+        },
+        {
+          "type": "-",
+          "title": {
+            "text": "Node sold"
+          }
+        }
+      ],
+      "legend": {
+        "enabled": true
+      },
+      "reverseX": false,
+      "numberFormat": "0,0",
+      "columnMapping": {
+        "sale_hour": "x",
+        "nodes_sold": "y",
+        "cumulative_nodes_sold_by_hour": "y"
+      },
+      "seriesOptions": {
+        "nodes_sold": {
+          "name": "Nodes sold",
+          "type": "column",
+          "color": "#2321d8",
+          "yAxis": 0,
+          "zIndex": 0
+        },
+        "cumulative_nodes_sold_by_hour": {
+          "name": "Cumulative nodes",
+          "type": "line",
+          "color": "#db47c4",
+          "yAxis": 1,
+          "zIndex": 1
+        }
+      },
+      "valuesOptions": {},
+      "globalSeriesType": "line",
+      "numberFormatRightYAxisSeries": "0,0"
+    },
+    "createdAt": "2024-11-11T12:35:45.640Z",
+    "updatedAt": "2025-04-15T03:13:27.904Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272079/7181176",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272079%2F7181176&cache=0"
+  },
+  {
+    "id": 7181025,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Node sold (Public)",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "public_node_count"
+    },
+    "createdAt": "2024-11-11T12:06:57.164Z",
+    "updatedAt": "2024-11-11T12:07:13.587Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7181025",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7181025&cache=0"
+  },
+  {
+    "id": 7181021,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "WL USD amount",
+    "options": {
+      "rowNumber": 1,
+      "stringPrefix": "$",
+      "counterColName": "total_wl_amount"
+    },
+    "createdAt": "2024-11-11T12:06:17.992Z",
+    "updatedAt": "2024-11-13T10:44:13.344Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7181021",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7181021&cache=0"
+  },
+  {
+    "id": 7180917,
+    "queryId": 4271957,
+    "type": "table",
+    "chartType": "table",
+    "name": "Query results",
+    "options": {
+      "columns": [
+        {
+          "name": "USD_amount",
+          "title": "USD amount",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "USD_per_unit",
+          "title": "USD per unit",
+          "numberFormat": "$0.00"
+        },
+        {
+          "name": "blockchain",
+          "title": "Blockchain"
+        },
+        {
+          "name": "block_time",
+          "title": "Datetime"
+        },
+        {
+          "name": "transaction_hash",
+          "title": "Tx hash"
+        },
+        {
+          "name": "buyer",
+          "title": "Buyer"
+        },
+        {
+          "name": "round",
+          "title": "Round"
+        },
+        {
+          "name": "tier",
+          "title": "Tier"
+        },
+        {
+          "name": "tierID",
+          "title": "Tier ID"
+        },
+        {
+          "name": "currency",
+          "title": "Currency"
+        },
+        {
+          "name": "nodes_purchased",
+          "title": "Nodes purchased"
+        },
+        {
+          "name": "total_price",
+          "title": "Total price",
+          "numberFormat": "0,0"
+        },
+        {
+          "name": "unit_price",
+          "title": "Unit price"
+        },
+        {
+          "name": "use_code",
+          "title": "Use code (y/n)"
+        },
+        {
+          "name": "with_code",
+          "title": "Promocode"
+        }
+      ]
+    },
+    "createdAt": "2024-11-11T11:45:00.246Z",
+    "updatedAt": "2024-11-24T16:37:40.999Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4271957/7180917",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4271957%2F7180917&cache=0"
+  },
+  {
+    "id": 7193339,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Mocalist USD amount",
+    "options": {
+      "rowNumber": 1,
+      "stringPrefix": "$",
+      "counterColName": "coinlist_sold"
+    },
+    "createdAt": "2024-11-13T10:39:53.098Z",
+    "updatedAt": "2024-11-20T13:57:32.418Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7193339",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7193339&cache=0"
+  },
+  {
+    "id": 7193348,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Mocalist unique buyers",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "coinlist_node_buyer"
+    },
+    "createdAt": "2024-11-13T10:41:08.553Z",
+    "updatedAt": "2024-11-20T13:57:37.490Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7193348",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7193348&cache=0"
+  },
+  {
+    "id": 7193318,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Mocalist node sold",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "coinlist_node_amount"
+    },
+    "createdAt": "2024-11-13T10:37:08.139Z",
+    "updatedAt": "2024-11-20T13:57:27.482Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7193318",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7193318&cache=0"
+  },
+  {
+    "id": 7188262,
+    "queryId": 4272053,
+    "type": "table",
+    "chartType": "table",
+    "name": "Node sale by tier",
+    "options": {
+      "columns": [
+        {
+          "name": "tier",
+          "title": "Tier",
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "max_nodes",
+          "title": "Max nodes",
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "sold",
+          "title": "Nodes sold"
+        },
+        {
+          "name": "nodes_left",
+          "title": "Nodes available"
+        },
+        {
+          "name": "wl_sold",
+          "title": "WL sold",
+          "isHidden": false
+        },
+        {
+          "name": "max_wl",
+          "isHidden": true,
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "wl_sold_pct",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "public_sold",
+          "title": "Public sold",
+          "isHidden": false
+        },
+        {
+          "name": "max_public",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "public_sold_pct",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "sold_pct",
+          "type": "progressbar",
+          "title": "% of tier sold",
+          "alignContent": "left",
+          "numberFormat": "0.0%",
+          "coloredNegativeValues": false,
+          "coloredPositiveValues": false
+        },
+        {
+          "name": "USD_amount",
+          "title": "Total USD amount",
+          "alignContent": "left",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "wl_USD_amount",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "public_USD_amount",
+          "isHidden": true,
+          "alignContent": "right",
+          "numberFormat": "0,0[.]0"
+        }
+      ]
+    },
+    "createdAt": "2024-11-12T15:56:08.137Z",
+    "updatedAt": "2024-11-12T16:10:43.631Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272053/7188262",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272053%2F7188262&cache=0"
+  },
+  {
+    "id": 7181024,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Node sold (WL)",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "wl_node_count"
+    },
+    "createdAt": "2024-11-11T12:06:45.767Z",
+    "updatedAt": "2024-11-11T12:06:54.118Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7181024",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7181024&cache=0"
+  },
+  {
+    "id": 7181018,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Total node sold",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "total_node_count"
+    },
+    "createdAt": "2024-11-11T12:06:08.357Z",
+    "updatedAt": "2024-11-15T03:37:03.036Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7181018",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7181018&cache=0"
+  },
+  {
+    "id": 7581830,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Other launchpad unique buyers",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "presale_node_buyer"
+    },
+    "createdAt": "2025-01-09T05:34:04.764Z",
+    "updatedAt": "2025-01-09T05:34:31.935Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7581830",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7581830&cache=0"
+  },
+  {
+    "id": 7581825,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Pre-sale USD amount",
+    "options": {
+      "rowNumber": 1,
+      "stringPrefix": "$",
+      "counterColName": "presale_sold"
+    },
+    "createdAt": "2025-01-09T05:32:49.501Z",
+    "updatedAt": "2025-01-09T05:34:00.084Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7581825",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7581825&cache=0"
+  },
+  {
+    "id": 7186865,
+    "queryId": 4275719,
+    "type": "table",
+    "chartType": "table",
+    "name": "Query results",
+    "options": {
+      "columns": [
+        {
+          "name": "tier",
+          "title": "Tier"
+        },
+        {
+          "name": "tierID",
+          "title": "Tier ID"
+        },
+        {
+          "name": "purchased_amt",
+          "title": "Total sold"
+        },
+        {
+          "name": "with_promo",
+          "title": "Node sold (w promo)"
+        },
+        {
+          "name": "without_promo",
+          "title": "Node sold (w/o promo)"
+        },
+        {
+          "name": "USD_amount",
+          "title": "USD amount",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "Avg_USD_amount",
+          "title": "Avg USD amount",
+          "numberFormat": "$0.00"
+        }
+      ]
+    },
+    "createdAt": "2024-11-12T11:49:38.381Z",
+    "updatedAt": "2024-11-14T14:58:25.159Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4275719/7186865",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4275719%2F7186865&cache=0"
+  },
+  {
+    "id": 7581823,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Pre-sale node amount",
+    "options": {
+      "rowNumber": 1,
+      "counterColName": "presale_node_amount"
+    },
+    "createdAt": "2025-01-09T05:32:12.778Z",
+    "updatedAt": "2025-01-09T05:36:17.576Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7581823",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7581823&cache=0"
+  },
+  {
+    "id": 7197768,
+    "queryId": 4282954,
+    "type": "chart",
+    "chartType": "line",
+    "name": "Mocalist amount snapshot",
+    "options": {
+      "sortX": true,
+      "xAxis": {
+        "type": "-",
+        "title": {
+          "text": "Datetime"
+        },
+        "tickFormat": ""
+      },
+      "yAxis": [
+        {
+          "type": "linear",
+          "title": {
+            "text": "USD amount"
+          },
+          "tickFormat": ""
+        },
+        {
+          "type": "linear"
+        }
+      ],
+      "legend": {
+        "enabled": false
+      },
+      "reverseX": false,
+      "numberFormat": "$0,0.00",
+      "columnMapping": {
+        "datetime": "x",
+        "USD_amount": "y"
+      },
+      "seriesOptions": {
+        "USD_amount": {
+          "name": "Total USD amount",
+          "type": "column",
+          "yAxis": 1,
+          "zIndex": 0
+        }
+      },
+      "valuesOptions": {},
+      "showDataLabels": true,
+      "globalSeriesType": "line"
+    },
+    "createdAt": "2024-11-14T04:36:52.422Z",
+    "updatedAt": "2024-11-15T03:31:08.609Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4282954/7197768",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4282954%2F7197768&cache=0"
+  },
+  {
+    "id": 7182136,
+    "queryId": 4272762,
+    "type": "table",
+    "chartType": "table",
+    "name": "Query results",
+    "options": {
+      "columns": [
+        {
+          "name": "USD_amount",
+          "title": "Total USD amount",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "USD_per_unit",
+          "title": "USD per unit",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "block_time",
+          "title": "Blocktime"
+        },
+        {
+          "name": "buyer",
+          "title": "Buyer"
+        },
+        {
+          "name": "with_code",
+          "title": "Promocode"
+        },
+        {
+          "name": "nodes_purchased",
+          "title": "Nodes purchased"
+        }
+      ]
+    },
+    "createdAt": "2024-11-11T16:30:42.082Z",
+    "updatedAt": "2024-11-12T16:21:32.739Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272762/7182136",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272762%2F7182136&cache=0"
+  },
+  {
+    "id": 7188194,
+    "queryId": 4272053,
+    "type": "table",
+    "chartType": "table",
+    "name": "Node sale by tiers (WL)",
+    "options": {
+      "columns": [
+        {
+          "name": "tier",
+          "title": "Tier",
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "max_nodes",
+          "isHidden": true,
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "sold",
+          "isHidden": true
+        },
+        {
+          "name": "nodes_left",
+          "isHidden": true
+        },
+        {
+          "name": "wl_sold",
+          "title": "WL sold"
+        },
+        {
+          "name": "max_wl",
+          "title": "Max WL",
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "wl_sold_pct",
+          "type": "progressbar",
+          "title": "WL sold %",
+          "isHidden": false,
+          "alignContent": "left",
+          "numberFormat": "0.0%",
+          "coloredNegativeValues": false,
+          "coloredPositiveValues": false
+        },
+        {
+          "name": "public_sold",
+          "isHidden": true
+        },
+        {
+          "name": "max_public",
+          "isHidden": true,
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "public_sold_pct",
+          "isHidden": true,
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "sold_pct",
+          "isHidden": true,
+          "alignContent": "left",
+          "numberFormat": "0,0[.]0"
+        },
+        {
+          "name": "USD_amount",
+          "title": "Total USD amount",
+          "alignContent": "left",
+          "numberFormat": "$0,0.00"
+        },
+        {
+          "name": "public_USD_amount",
+          "isHidden": true
+        },
+        {
+          "name": "wl_USD_amount",
+          "title": "USD amount (WL)",
+          "numberFormat": "$0,0.00"
+        }
+      ]
+    },
+    "createdAt": "2024-11-12T15:44:35.524Z",
+    "updatedAt": "2024-11-12T16:10:33.017Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272053/7188194",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272053%2F7188194&cache=0"
+  },
+  {
+    "id": 7181354,
+    "queryId": 4272013,
+    "type": "counter",
+    "chartType": "counter",
+    "name": "Public USD amount",
+    "options": {
+      "rowNumber": 1,
+      "stringPrefix": "$",
+      "counterColName": "total_public_amount"
+    },
+    "createdAt": "2024-11-11T13:21:37.390Z",
+    "updatedAt": "2024-11-13T10:44:55.309Z",
+    "isPrivate": false,
+    "interactiveChartUrl": "https://dune.com/embeds/4272013/7181354",
+    "chartJpegUrl": "https://core-api.dune.com/public/screenshot?url=https%3A%2F%2Fdune.com%2Fembeds%2F4272013%2F7181354&cache=0"
+  }
+]

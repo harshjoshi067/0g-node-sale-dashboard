@@ -1,0 +1,19 @@
+{
+  "tx_count": 6105,
+  "total_node_count": "96681",
+  "node_reserved": "78819",
+  "USDC_amount": 29667200,
+  "WETH_amount": null,
+  "total_usd_amount": 34319790.25,
+  "wl_node_count": "59582",
+  "public_node_count": "18618",
+  "total_wl_amount": 23187881,
+  "total_public_amount": 6479319,
+  "unique_buyer": 8483,
+  "coinlist_node_amount": 9927,
+  "coinlist_sold": "2052590.25",
+  "coinlist_node_buyer": 1747,
+  "presale_node_amount": 8554,
+  "presale_sold": 2600000,
+  "presale_node_buyer": 2657
+}

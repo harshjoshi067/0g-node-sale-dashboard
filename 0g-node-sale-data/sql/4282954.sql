@@ -1,0 +1,13 @@
+WITH tt_coinlist(datetime, USD_amount, node_buyer, node_amount) AS (
+  VALUES
+    (TIMESTAMP '2024-11-13 00:45', 847309.09, 830, 4919),
+    (TIMESTAMP '2024-11-14 03:30', 1382721.34, 1271, 7597),
+    (TIMESTAMP '2024-11-14 13:13', 1484242.46, 1335, 8065),
+    (TIMESTAMP '2024-11-15 01:00', 1515903.26, 1369, 8210),
+    (TIMESTAMP '2024-11-19 15:38', 2052590.25, 1747, 9927)
+)
+SELECT
+  *
+FROM tt_coinlist;
+
+
